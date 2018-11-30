@@ -1,0 +1,650 @@
+
+
+.H-up{
+  width: 100%;
+  border-style: solid;
+  height: 15px;
+  background-color: green;
+}
+
+.H-mid{
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  padding: 10px;
+}
+
+.H-name-logo{
+  display: flex;
+}
+
+.H-logo{
+  font-size: 50px;
+  color: green;
+  padding: 10px;
+}
+
+.H-com{
+  color: green;
+  font-family: broadway;
+  padding :10px;
+}
+
+.H-cart{
+  display: flex;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: content-box;
+  border: solid;
+}
+
+.H-cart-icon{
+  margin-right: 15px;
+}
+
+.H-cart-text{
+  display: none;
+}
+
+.H-menu{
+  margin-right: 10%;
+  margin-left: 10%;
+  display: none;
+}
+
+.dropdown{
+  margin-right: 10px;
+}
+
+.H-end{
+  margin-right: 10%;
+  margin-left: 10%;
+  border-style: solid;
+  height: 5px;
+  background-color: black;
+}
+
+
+
+.B-image-content{
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 100%;
+  padding: 10px;
+}
+
+.B-image{
+  width: 50%;
+  position: relative;
+  display: block;
+  }
+
+.BINBIN{
+  width: 100%;
+}
+
+.B-image:before{
+  content: "GET READY FOR THE AUTUMN";
+  font-size: 32px;
+  position: absolute; 
+  color: white;
+  top: 10%;
+  left: 20%;
+  font-family: Bauhaus;
+}
+
+.B-image:after{
+  content: "WE HAVE PREPARED ANYTHING FOR YOU";
+  font-size: 24px;
+  position: absolute;
+  top: 32%;
+  left: 12%;
+  color: white;
+  font-family: Bauhaus;
+}
+
+.B-content{
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 10%;
+  font-family: broadway;
+  text-align: left;
+  color: green;
+}  
+
+h1.BINMC{
+  font-size: 28px;
+}
+
+.B-line{
+  margin-right: 10%;
+  margin-left: 10%;
+  border-style: solid;
+  height: 5px;
+  background-color: black;
+  font-size: 20px;
+  position: relative;
+}
+
+.B-text{
+  color: red;
+  font-size: 20px;
+}
+
+.B-line: after{
+  content: "";
+  font-size: 20px;
+  color: red;
+}
+
+.B-item1{
+  margin-left: 12%;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+}
+
+.B-item2{
+  margin-left: 12%;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+}
+
+.B-items1{
+  width: 40%;
+}
+
+.B-items1-image{
+  width: 80%;
+  border: 1px solid green;
+  display: block;
+}
+
+.B-items1-info{
+  width: 20%;
+  margin-left: 25%;  
+  margin-right: 25%;
+  display: block;
+}
+
+.add-items1{
+  margin-left: -50%;
+  display: block;
+}
+
+.B-items2{
+  width: 40%;
+}
+
+.B-items2-image{
+  width: 80%;
+  border: 1px solid green;
+  display: block;
+}
+
+.B-items2-info{
+  width: 20%;
+  margin-left: 25%;  
+  margin-right: 25%;
+}
+
+.B-items-info--fix{
+  display: flex;
+  color: red;
+}
+
+.add-items2{
+  margin-left: -50%;
+  display: block;
+}
+
+.B-items3{
+  width: 40%;
+}
+
+.B-items3-image{
+  width: 80%;
+  border: 1px solid green;
+}
+
+.B-items3-info{
+  width: 20%;
+  margin-left: 25%;  
+  margin-right: 25%;
+}
+
+.add-items3{
+  margin-left: -50%;
+}
+
+.B-items4{
+  width:40%;
+}
+
+.B-items4-image{
+  width: 80%;
+  border: 1px solid green;
+}
+
+.B-items4-info{
+  width: 20%;
+  margin-left: 25%;  
+  margin-right: 25%;
+}
+
+.add-items4{
+  margin-left: -50%;
+}
+
+.Footer{
+  background-color: grey;
+  display: block;
+  width: 100%;
+
+}
+
+.F-cate{
+  width: 25%;
+  color: white;
+  font-family: Elephant; 
+  padding: 5px;
+  padding: 5%;
+  display: block;
+}
+
+.F-service{
+  width: 25%;
+  color: white;
+  font-family: Elephant; 
+  padding: 5px;
+  display: block;
+  padding: 5%;
+}
+
+.F-subcribe{
+  color: white;
+  width: 60%;
+  font-family: Elephant; 
+  padding: 5%; 
+  display: block;
+}
+
+.F-text{
+    padding: 5%;
+}
+
+.F-text-button{
+  display: flex;
+}
+
+
+/* destop */
+
+@media screen and (min-width: 940px) {
+ .H-up{
+  width: 100%;
+  border-style: solid;
+  height: 15px;
+  background-color: green;
+}
+
+.H-mid{
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  padding: 10px;
+}
+
+.H-name-logo{
+  display: flex;
+}
+
+.H-logo{
+  font-size: 50px;
+  color: green;
+  padding: 10px;
+}
+
+.H-com{
+  color: green;
+  font-family: broadway;
+}
+
+.H-cart{
+  display: flex;
+  margin-left: auto;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: content-box;
+  border: solid;
+}
+
+.H-cart-icon{
+  margin-right: 15px;
+}
+
+.H-menu{
+  margin-right: 10%;
+  margin-left: 10%;
+  display: block;
+}
+
+.H-cart-text{
+  display: block;
+}
+
+/* dropdown collections menu on desktop */
+.H-dropdown-collectionMenu {
+    position: relative;
+    display: inline-block;
+}
+
+.H-dropdown-content-collectionMenu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.H-dropdown-content-collectionMenu2015{
+  display: none;
+  position:absolute;
+  z-index: 1;
+  padding :10px;
+}
+
+.H-dropdown-content-collectionMenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: algerian;
+}
+
+.H-dropdown-content-collectionMenu i{
+  float: right;
+}
+
+.H-dropdown-content-collectionMenu2015{
+  background-color: #f1f1f1;
+}
+
+.H-dropdown-collectionMenu:hover .H-dropdown-content-collectionMenu {
+  display: block;
+}
+
+.H-dropdown-content-collectionMenu:hover  .H-dropdown-content-collectionMenu2015 {
+  display: block;
+}
+
+/* */
+.dropdown{
+  margin-right: 10px;
+}
+
+.H-end{
+  margin-right: 10%;
+  margin-left: 10%;
+  border-style: solid;
+  height: 5px;
+  background-color: black;
+}
+
+
+
+.B-image-content{
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.B-image{
+  width: 50%;
+  position: relative;
+  }
+
+.BINBIN{
+  width: 100%;
+}
+
+.B-image:before{
+  content: "GET READY FOR THE AUTUMN";
+  font-size: 32px;
+  position: absolute; 
+  color: white;
+  top: 10%;
+  left: 20%;
+  font-family: Bauhaus;
+}
+
+.B-image:after{
+  content: "WE HAVE PREPARED ANYTHING FOR YOU";
+  font-size: 24px;
+  position: absolute;
+  top: 32%;
+  left: 12%;
+  color: white;
+  font-family: Bauhaus;
+}
+
+.B-content{
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 10%;
+  font-family: broadway;
+  text-align: left;
+  color: green;
+}  
+
+h1.BINMC{
+  font-size: 28px;
+}
+
+.B-line{
+  margin-right: 10%;
+  margin-left: 10%;
+  border-style: solid;
+  height: 5px;
+  background-color: black;
+  font-size: 20px;
+  position: relative;
+}
+
+.B-text: before{
+  content: "OUR FAVOURITES";
+  font-size: 20px;
+  color: red;
+  position: absolute;
+}
+
+.B-item{
+  display: flex;
+}
+
+.B-item1{
+  width: 100%;
+  padding: 12px;
+  display: flex;
+}
+
+.B-item2{
+  display: flex;
+  width: 100%;
+  padding: 12px;
+}
+
+.B-items1{
+  width: 44%;
+  display: block;
+}
+
+.B-items1-image{
+  width: 80%;
+  border: 1px solid green;
+}
+
+.B-items1-info{
+  width: 20%;
+  margin-left: 25%;  
+  margin-right: 25%;
+}
+
+.add-items1{
+  margin-left: -50%;
+}
+
+.B-items2{
+  width: 44%;
+}
+
+.B-items2-image{
+  width: 80%;
+  border: 1px solid green;
+}
+
+.B-items2-info{
+  width: 40%;
+  margin-left: 25%;  
+  margin-right: 25%;
+}
+
+.B-items-info--fix{
+  display: flex;
+  color: red;
+}
+
+.add-items2{
+  margin-left: -50%;
+}
+
+.B-items3{
+  width: 44%;
+}
+
+.B-items3-image{
+  width: 80%;
+  border: 1px solid green;
+}
+
+.B-items3-info{
+  width: 20%;
+  margin-left: 25%;  
+  margin-right: 25%;
+}
+
+.add-items3{
+  margin-left: -50%;
+}
+
+.B-items4{
+  width: 44%;
+}
+
+.B-items4-image{
+  width: 80%;
+  border: 1px solid green;
+}
+
+.B-items4-info{
+  width: 20%;
+  margin-left: 25%;  
+  margin-right: 25%;
+}
+
+.add-items4{
+  margin-left: -50%;
+}
+
+.Footer{
+  background-color: grey;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.F-cate{
+  width: 25%;
+  color: white;
+  font-family: Elephant; 
+  padding: 5px;
+  margin-left: 10%;
+}
+
+.F-service{
+  width: 25%;
+  color: white;
+  font-family: Elephant; 
+  padding: 5px;
+}
+
+.F-subcribe{
+  color: white;
+  width: 40%;
+  font-family: Elephant; 
+  margin-right: 10%; 
+}
+
+.F-text-button{
+  display: flex;
+  margin-right: 10%;
+}
+
+
+
+
+
+
+.H-icon-Menu {
+    position: relative;
+    display: inline-block;
+}
+
+.H-dropdownMenu{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.H-icon-Menu:hover .H-dropdownMenu {
+  display: block;
+}
+
+.H-iconMenu-collection2015{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.H-content-iconMenu-collection2015{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.H-iconMenu-collection:hover .H-iconMenu-collection2015 {
+  display: block;
+}
+
+.H-iconMenu-collection2015:hover .H-content-iconMenu-collection2015{
+display: block;
+}
+
+
+}
+
